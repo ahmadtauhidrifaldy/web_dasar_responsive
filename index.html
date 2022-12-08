@@ -1,0 +1,227 @@
+<html lang="en">
+  <head>
+    <title>Mama Recipe</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <div class="body">
+
+        <!-- bagian navbar -->
+        <header class="container">
+          <nav class="navbar navbar-expand-lg bg-transaparent sticky-top">
+            <div class="container">
+              <a class="navbar-brand" href="/">Food Recipe</a
+              ><button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" aria-current="page" href="/home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="/addRecipe">Add Recipe</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="/profile">Profile</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                  <div class="container_user">
+                    <div class="container_user_img mt-4">
+                      <img
+                        src="img/User-icon.a418c05c267b1761ebc6c55baf0c57c6.svg"
+                        alt=""
+                      />
+                    </div>
+                    <span></span>
+                  </div>
+                  <a class="text-decoration-none login" href="/login"
+                    ><p class="m-auto ms-2">
+                      <a href="#" class="text-decoration-none text-white me-2"
+                        >Login</a
+                      >
+                    </p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- akhir navbar -->
+
+        <!--  Bagian Main-->
+        <section class="container containers">
+          <div class="d-flex align-items-center baner">
+            <div class="mb-5 justify-content-evenly">
+              <div class="title">
+                <h1>Discover Recipe &amp; Delicious Food</h1>
+                <div class="conts-icon">
+                  <a
+                    ><svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="magnifying-glass"
+                      class="svg-inline--fa fa-magnifying-glass icon-search"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"
+                      ></path></svg></a
+                  ><input
+                    type="text"
+                    name="search"
+                    class="form-control mb-3"
+                    placeholder="Search Recipe"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <div class="container_img">
+                <img
+                  src="img/Daun.81ef3afde57e9c276ac160b67853b902.svg"
+                  alt=""
+                  width=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- akhir Main -->
+
+        <!-- Bagian Popular -->
+        <section class="container">
+          <div class="col-sm-3 popular">
+            <div class=""><p>Popular For You !</p></div>
+            <img
+              src="img/elips.1345d8af935a1313dd7ff3df9c0d12fc.svg"
+              alt=""
+              class="elips"
+            />
+          </div>
+          <div class="col-sm-9 mt-2 img_popular">
+            <img
+              src="img/pizza.abbb38a2bd01ba56847b7e811dffa106.svg"
+              alt=""
+            /><img
+              src="img/Burger-King.5c674e75da7b0225d00f1001a772ad0b.svg"
+              alt=""
+            />
+          </div>
+        </section>
+        <!-- akhir popular -->
+
+        <!-- Bagian New Recipe -->
+        <section class="container">
+          <div class="col-sm-3 popular"><p>New Recipe</p></div>
+          <div class="row mt-5 new-recipe">
+            <div class="col-sm-8 img-recipe mt-5">
+              <img
+                class="img"
+                src="img/burger1.e17dc474a0d56df1d5f87d97dfa0646b.svg"
+                alt=""
+              />
+            </div>
+            <div class="col-sm-4 align-self-center text-recipe">
+              <h1>Healthy Bone Broth Ramen (Quick &amp; Easy)</h1>
+              <p>
+                Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in
+                a hurry? That’s right!
+              </p>
+              <button class="btn btn-warning text-white mt-3">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- Akhir New Recipe -->
+
+        <!-- Popular Recipe-->
+        <section class="container popular-recipe">
+          <div class="col-sm-3 popular"><p>Popular Recipe</p></div>
+          <div class="row">
+            <div
+              class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4 ms-0 pb-5 g-2 gb-5 popular-custom"
+            >
+              <div class="mb-0 col">
+                <div class="">
+                  <a class="link" href="/detailRecipe/8"
+                    ><div class="card4">
+                      <div class="card2">
+                        <img
+                          src="https://res.cloudinary.com/dhqwxqz4o/image/upload/v1665513751/ltyncup92xqbsrixsoky.jpg"
+                          class="img"
+                          alt="picture"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bakso</h5>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+              <div class="mb-0 col">
+                <div class="">
+                  <a class="link" href="/detailRecipe/5"
+                    ><div class="card4">
+                      <div class="card2">
+                        <img
+                          src="https://res.cloudinary.com/dhqwxqz4o/image/upload/v1665513336/yclh79qflaxfmndtslpa.jpg"
+                          class="img"
+                          alt="picture"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bakso Malang</h5>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  Akhir Recipe-->
+
+        <!-- Bagian footer -->
+        <footer class="footer">
+          <footer class="ff-airbnb">
+            <div class="top">
+              <h1 class="display-5 mb-4">Eat, Cook, Repeat</h1>
+              <p class="mx-3 text-center">
+                Share your best recipe by uploading here !
+              </p>
+            </div>
+            <div class="bottom">
+              <ul class="m-0 p-0">
+                <li><a class="color-blue" href="/">Product</a></li>
+                <li><a class="color-blue" href="/">Company</a></li>
+                <li><a class="color-blue" href="/">Learn More</a></li>
+                <li><a class="color-blue" href="/">Get In Touch</a></li>
+              </ul>
+            </div>
+          </footer>
+        </footer>
+        <!-- akhir footer -->
+        
+      </div>
+    </div>
+  </body>
+</html>
